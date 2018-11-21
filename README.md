@@ -12,9 +12,4 @@ The scraper takes a list of Company Identification Numbers (CINs) from a .csv fi
 
 The scraper produces two files at the end of its run: a .csv file containing the CSR disclosures, and a .csv file listing CINs that produced exceptions during the scraping procedure. 
 
-## Known issues
-
-The scraper relies on the output tables on the MCA website being in a defined format. A few companies for which data is available nevertheless encounter exceptions in the scraper. I have not yet investigated what is causing these exceptions and whether they need to be addressed individually or if there is a more robust way to define the scraping procedure.
-
-
 
